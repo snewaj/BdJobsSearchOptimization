@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETLWorker", "ETLWorker\ETLWorker.csproj", "{0C1891FA-1C88-4BC4-BBDA-CB6404E84762}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C1891FA-1C88-4BC4-BBDA-CB6404E84762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1891FA-1C88-4BC4-BBDA-CB6404E84762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1891FA-1C88-4BC4-BBDA-CB6404E84762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1891FA-1C88-4BC4-BBDA-CB6404E84762}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A02B970-089E-49A4-9459-8072AB24A49B}
+	EndGlobalSection
+EndGlobal
