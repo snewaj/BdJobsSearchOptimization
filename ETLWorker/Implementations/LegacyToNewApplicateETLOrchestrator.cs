@@ -1,7 +1,7 @@
 ﻿using ETLWorker.Contracts;
 using ETLWorker.DTO;
 
-namespace ETLWorker.Services
+namespace ETLWorker.Implementations
 {
     // Concrete ETL Orchestrator for transforming RawDataItem to Applicant
     public class LegacyToNewApplicateETLOrchestrator : ETLOrchestrator<LegacyApplicant, Applicant>

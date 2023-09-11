@@ -1,7 +1,7 @@
 ﻿using ETLWorker.Contracts;
 using ETLWorker.DTO;
 
-namespace ETLWorker.Services
+namespace ETLWorker.Implementations
 {
     // Implement Transformer and Loader with the specified data types
     public class LegacyApplicateToNewApplicantTransformer : ITransformer<LegacyApplicant, Applicant>

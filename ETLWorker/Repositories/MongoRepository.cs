@@ -7,8 +7,10 @@ namespace ETLWorker.Repositories
     {
         private readonly IMongoCollection<T> _collection;
 
-        public MongoRepository(IMongoDatabase database)
+        public MongoRepository()
         {
+            MongoClient dbClient = new MongoClient("connectionstring");
+            IMongoDatabase database = dbClient.GetDatabase("ApplicantDB");
             _collection = database.GetCollection<T>(typeof(T).ToString());
         }
 

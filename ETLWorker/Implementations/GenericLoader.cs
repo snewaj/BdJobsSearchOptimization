@@ -1,6 +1,6 @@
 ﻿using ETLWorker.Contracts;
 
-namespace ETLWorker.Services
+namespace ETLWorker.Implementations
 {
     public class GenericLoader<T> : ILoader<T>
     {

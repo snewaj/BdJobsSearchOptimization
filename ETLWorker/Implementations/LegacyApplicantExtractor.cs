@@ -1,6 +1,6 @@
 ﻿using ETLWorker.Contracts;
 
-namespace ETLWorker.Services
+namespace ETLWorker.Implementations
 {
     // Implement the extractor using the repository pattern
     public class LegacyApplicantExtractor<T> : IExtractor<T>
