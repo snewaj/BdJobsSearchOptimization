@@ -23,10 +23,10 @@ namespace ETLWorker.Contracts
             this.loader = loader;
         }
 
-        public void ExecuteETLProcess()
+        public void ExecuteETLProcess(IFilter filter)
         {
             // Extract data
-            List<TInput> extractedData = extractor.ExtractData();
+            List<TInput> extractedData = extractor.ExtractData(filter);
 
             // Transform the data
             List<TOutput> transformedData = transformer.TransformData(extractedData);

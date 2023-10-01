@@ -2,7 +2,7 @@
 {
     public interface IExtractor<T>
     {
-        List<T> ExtractData();
+        List<T> ExtractData(IFilter filter);
     }
 
 

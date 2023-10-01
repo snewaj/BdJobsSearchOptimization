@@ -14,7 +14,7 @@ namespace ETLWorker.Implementations
         public override void RunETLProcess()
         {
             Console.WriteLine("Starting RawDataItem to Applicant ETL Process...");
-            ExecuteETLProcess();
+            ExecuteETLProcess(new ExtracttionFilter());
             Console.WriteLine("RawDataItem to Applicant ETL Process completed.");
         }
     }

@@ -12,7 +12,7 @@ namespace ETLWorker.Implementations
             _repository = repository;
         }
 
-        public List<T> ExtractData()
+        public List<T> ExtractData(IFilter filter)
         {
             return (List<T>)_repository.GetAll();
         }
